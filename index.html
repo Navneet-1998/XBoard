@@ -3,14 +3,147 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0" />
         <title>Crio Feed</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         <meta name="description" content="Crio Feed Website" />
         <link rel="stylesheet" href="resources/css/index.css">
         </head>
 
-        <body>
+        <body> 
+          <header>
+            <nav class="navbar navbar-light bg-light sticky-top">
+              <div class="container-fluid d-flex justify-content-center text-start mt-4">
+                <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+                  <a class="navbar-brand mb-3" href="#">
+                    <div id="icon"></div>
+                    Crio News Feed
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </header>
 
-        <div class="h1">Write your code in this file</div>
-        <script src="resources/data/magazines.js"></script>
-        <script src="resources/js/index.js"></script>
+          <div class="container-fluid d-flex justify-content-center text-start mt-4">
+            <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+              <h4 style="font-weight: 600;">Today</h4>
+              <p style="opacity:0.6;">
+              The insights around the world that keeps you ahead.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-fluid d-flex justify-content-center text-start mt-4">
+            <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+              <div class="accordion" id="accordionId"></div>
+            </div>
+          </div>
+
+        
+          <script src="resources/data/magazines.js"></script>
+          <script type="module" src="resources/js/index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>              
         </body>
         </html>
+
+
+
+
+
+
+
+
+
+
+          <!-- <nav class="navbar navbar-light bg-light sticky-top">
+            <div class="container-fluid d-flex justify-content-center text-start mt-4 pl-0">
+              <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+                <a class="navbar-brand mb-3" href="#">
+                  <div id="icon"></div>
+                  Crio News Feed
+                  </a>
+              </div>
+            </div>  
+                </nav>
+
+
+
+              <div class='container-fluid d-flex justify-content-center text-start my-4'>
+                  <div class="accordion accordion-flush col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9"  id="category">
+                    <!-- Content section -->
+                    <!-- </div>
+                </div> --> 
+
+                <!-- <div class="container-fluid d-flex justify-content-center text-start mt-4">
+                  <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+                    <h4>Today</h4>
+                    <p style="opacity: 0.6;">The insights around the world that keeps you ahead.</p>
+                  </div>
+              </div>
+
+                <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                        <h5  class="accordion-header" id="headingThree" style="display: inline;"> 
+                            <button class="accordion-button collapsed" style="width: 20px; " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseThree">   
+                                <span id="p1">Politics</span>    
+                        </button>
+                          </h5>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                        
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                                <h5  class="accordion-header" id="headingThree" style="display: inline;"> 
+                                    <button class="accordion-button collapsed" style="width: 20px; " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">   
+                                        <span id="p1">Space</span>    
+                                </button>
+                                  </h5>
+                                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                        <h5  class="accordion-header" id="headingThree" style="display: inline;"> 
+                                            <button class="accordion-button collapsed" style="width: 20px; " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">   
+                                                <span id="p1">Sports</span>    
+                                        </button>
+                                          </h5>
+                                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                        
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div> -->
+                                      <!-- <nav class="navbar navbar-light bg-light sticky-top">
+                                        <div class="container-fluid d-flex justify-content-center text-start mt-4 pl-0">
+                                          <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+                                            <a class="navbar-brand mb-3" href="#">
+                                              <div id="icon"></div>
+                                              Crio News Feed
+                                              </a>
+                                          </div>
+                                        </div>
+                                      </nav>
+                                  
+                                  
+                                  
+                                        <!--header section-->
+                                        <!-- <div class="container-fluid d-flex justify-content-center text-start mt-4">
+                                            <div class="col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9">
+                                              <h4>Today</h4>
+                                              <p style="opacity: 0.6;">The insights around the world that keeps you ahead.</p>
+                                            </div>
+                                        </div>
+                                           
+                                          <!-- Frame 6 -->
+                                      
+                                           <!-- <div class='container-fluid d-flex justify-content-center text-start my-4'>
+                                          <div class="accordion accordion-flush col-12 col-xs-11 col-sm-11 col-md-11 col-lg-9"  id="category">
+                                            <!-- Content section -->
+                                            <!-- </div>
+                                        </div> -- -->
+                                          <!-- Frame 6 -->
