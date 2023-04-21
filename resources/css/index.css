@@ -55,6 +55,7 @@ border-radius: 4.5px;
 
 .btn-link {
     width:100%;
+    height: 30px;
     position: relative;
     text-align: left;
     opacity: 0.7;
@@ -65,9 +66,9 @@ border-radius: 4.5px;
 
 .btn-link::before {
     content:"▲";
-    color: #737373;
+    color: #000000;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 0;
     transform: translateY(-50%);
     display: block;
@@ -77,7 +78,7 @@ border-radius: 4.5px;
 
 .btn-link[aria-expanded="true"]::before{
     content: "▼";
-    color: #737373;
+    color: #000000;
 }
 
 .btn {
@@ -101,3 +102,5 @@ border-radius: 4.5px;
     font-size: 24px;
     font-weight: 400;
 }
+
+
