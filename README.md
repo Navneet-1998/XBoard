@@ -1,6 +1,6 @@
 # XBoard
 
-deploy on netlify :- https://basic-x-board.netlify.app/
+deployed on netlify :- https://basic-x-board.netlify.app/
 
 XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.
 
